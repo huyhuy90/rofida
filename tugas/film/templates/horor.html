@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Halaman Utama
+{% endblock title %}
+
+{% block style %}
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+    }
+    h1 {
+        color: rgb(169, 19, 238);
+    }
+    h2{
+        color: rgb(219, 97, 193);
+    }
+    p {
+        color: rgb(207, 120, 193);
+    }
+    header a + a:before {
+        content: " | ";
+        margin: 0 5px;
+    }
+    header a {
+        text-decoration: none;
+    }
+</style>
+{% endblock style %}
+
+{% block menu %}
+{% endblock menu %}
+
+{% block content %}
+<h1>5 DRAKOR HOROR TERATAS</h1>
+<p>Hotel de luna</p>
+<p>Tomorrow</p>
+<p>Happiness</p>
+<p>Taxi driver</p>
+<p>All of us are dead</p>
+{% endblock content %}
